@@ -1,9 +1,11 @@
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-xl font-bold text-primary'>hiii</h1>
+    <div className="">
+      <Navbar />
     </div>
   );
 }
