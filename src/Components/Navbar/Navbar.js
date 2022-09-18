@@ -35,7 +35,7 @@ const Navbar = () => {
                             <li><button>Why Sociality.io?</button></li>
                         </ul>
                     </div>
-                    <div className='fill-current'>
+                    <div className='btn btn-ghost fill-current'>
                         <img className='w-[200px] h-[50px]' src={logo} alt="" />
                     </div>
                 </div>
