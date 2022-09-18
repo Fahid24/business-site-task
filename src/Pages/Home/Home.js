@@ -19,6 +19,8 @@ const Home = () => {
             <Products />
             <Package />
             <Service />
+
+            {/* sticky chat bar */}
             <div className='sticky right-0 bottom-0 flex justify-end'>
                 <BsFillChatDotsFill className='w-40 text-6xl text-accent my-10' />
             </div>

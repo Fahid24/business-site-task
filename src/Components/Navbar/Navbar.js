@@ -11,6 +11,8 @@ const Navbar = () => {
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
+
+                        {/* small display section */}
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <li tabIndex={0}>
                                 <button>
@@ -35,10 +37,14 @@ const Navbar = () => {
                             <li><button>Why Sociality.io?</button></li>
                         </ul>
                     </div>
+
+                    {/* navbar main logo */}
                     <div className='btn btn-ghost fill-current'>
                         <img className='lg:w-[200px] h-[50px]' src={logo} alt="" />
                     </div>
                 </div>
+
+                {/* large display section */}
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
                         <li tabIndex={0}>
@@ -65,16 +71,24 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-3">
+
+                    {/* search button */}
                     <button className="btn btn-ghost hidden lg:flex btn-circle">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                     </button>
+
+                    {/* notification button */}
                     <button className="btn btn-ghost hidden lg:flex  btn-circle">
                         <div className="indicator">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
                             <span className="badge badge-xs badge-primary indicator-item"></span>
                         </div>
+
                     </button>
                     <div className="flex-none">
+
+                        {/* add to chart button */}
+
                         <div className="dropdown hidden lg:flex  dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle">
                                 <div className="indicator">
@@ -96,7 +110,11 @@ const Navbar = () => {
                         </div>
 
                     </div>
-                    <button className='btn btn-ghost rounded-full btn-sm normal-case'>Sing up</button>
+
+                    {/* sing up button */}
+                    <button className='btn btn-ghost rounded-full btn-sm normal-case'>Sing up
+                    </button>
+
                     <Button text='Start free trial' btn='btn-sm' />
 
                 </div>
