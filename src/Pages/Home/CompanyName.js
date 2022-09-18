@@ -36,13 +36,13 @@ const companies = [
 
 const CompanyName = () => {
     return (
-        <div className='flex justify-around p-10'>
+        <div className='flex gap-5 justify-around my-40 p-10'>
             {
-                companies.map(compamy => (
+                companies.map(company => (
                     <div
-                        kye={compamy.id}
+                        key={company.id}
                     >
-                        <img className='rounded-xl' src={compamy.logo} alt="" />
+                        <img className='rounded-xl' src={company.logo} alt="" />
 
                     </div>
                 ))

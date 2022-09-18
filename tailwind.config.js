@@ -52,7 +52,7 @@ module.exports = {
           warning: "rgb(226, 226, 226)",
           "warning-content": "#e2e2e2", ///border colors
           // error: "#176f6b",
-          error: "#111111",
+          error: "#176f6b",
           "error-content": "#007a70",
           "error-content1": "#c7c7c7",
         },
