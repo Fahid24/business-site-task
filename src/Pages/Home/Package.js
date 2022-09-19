@@ -11,7 +11,7 @@ const Package = () => {
 
 
 
-            <div className="hero  min-h-screen text-center lg:mx-40 ">
+            <div className="hero  min-h-screen text-center mx-auto lg:mx-40 ">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src="https://www.insightssuccess.com/wp-content/uploads/2022/04/Advantages-of-Social-Media-Marketing-for-Your-Business-1-1.jpg" className="max-w-sm rounded-lg shadow-2xl" alt='' />
                     <div className='flex flex-col items-center gap-3'>

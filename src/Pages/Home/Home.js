@@ -11,7 +11,7 @@ import { BsFillChatDotsFill } from 'react-icons/bs';
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Navbar />
             <Introduction />
             <Slider />
@@ -25,7 +25,7 @@ const Home = () => {
                 <BsFillChatDotsFill className='w-40 text-6xl text-accent my-10' />
             </div>
 
-        </div>
+        </>
     );
 };
 

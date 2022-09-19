@@ -5,7 +5,7 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const Product = ({ product }) => {
     const { img, type, logo, color, describe } = product;
     return (
-        <div className="hover:text-primary hover:scale-105 transition delay-600 card w-96 bg-white shadow-xl">
+        <div className="hover:text-primary hover:scale-105 transition delay-600 card bg-white shadow-xl">
 
             <figure><img src={img} alt={type} /></figure>
 
