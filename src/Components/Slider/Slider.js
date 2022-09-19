@@ -11,7 +11,7 @@ import Button from '../Share/Button/Button';
 
 const Slider = () => {
     return (
-        <div className='flex flex-col justify-center gap-20 items-center px-40'>
+        <div className='flex flex-col mx-auto justify-center gap-20 items-center lg:px-40'>
             <Swiper
                 effect={"coverflow"}
                 grabCursor={true}
@@ -48,7 +48,7 @@ const Slider = () => {
                 </SwiperSlide>
 
             </Swiper>
-            <Button kye={2} btn='btn-lg' text='Start your free trial ' />
+            <Button kye={2} btn='btn-sm lg:btn-lg' text='Start your free trial ' />
         </div>
     );
 };
