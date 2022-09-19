@@ -5,7 +5,7 @@ import logo from '../../Images/images-removebg-preview.png'
 const Navbar = () => {
     return (
         <>
-            <div className="navbar text-md font-semibold px-5 bg-white">
+            <div className="navbar text-md font-semibold w-full bg-white">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
