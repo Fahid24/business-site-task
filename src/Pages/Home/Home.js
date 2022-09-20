@@ -7,6 +7,7 @@ import Products from './Products';
 import Service from './Service';
 import Slider from '../../Components/Slider/Slider';
 import { BsFillChatDotsFill } from 'react-icons/bs';
+import Contact from './Contact';
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <Products />
             <Package />
             <Service />
+            <Contact />
 
             {/* sticky chat bar */}
             <div className='sticky right-0 bottom-0 flex justify-end'>
